@@ -1,0 +1,141 @@
+﻿<!doctype html>
+<html class="no-js" lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Jadpad 📲🌈 | An e-commerce play in refurbished tech</title>
+    <meta name="description" content="A new e-commerce play in refurbished tech">
+    <meta name="keywords"
+        content="used, refurbished, open box, returns, electronics, iphone, ipad, macbook pro, apple, samsung, certified refurbished, ecommerce, uae, saudi, global, international" />
+    <meta property="og:title" content="Jadpad: A new e-commerce play in refurbished tech" />
+    <meta property="og:description" content="A new e-commerce play in refurbished tech" />
+    <meta property="og:image" content="/img/og_image.png" />
+    <meta property="og:url" content="https://jadpad.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no,user-scalable=no">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/css/selectize.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/css/bootstrap-slider.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,900" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
+    <link rel="manifest" href="/static/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="site-content">
+        <div class="main-body">
+            <div class="logo-wrapper animated zoomIn">
+                <img src="img/logo.png" />
+            </div>
+            <div id="mainTitle" class="animated fadeIn">
+                <div class="main-header">
+                    <h1 class="main-h1">We're doing a new e-commerce play in </br>refurbished tech 📲</h1>
+                </div>
+                <div class="sub-header">
+                    <h2 class="sub-h2">Better prices, awesome support, great policies and just more fun to boot! </br> Sign up and we'll let you know when we're ready.</h2>
+                </div>
+            </div>
+            <div id="step2Title" class="animated fadeIn">
+                <div class="sub-header">
+                    <h2 class="sub-h2">Please give us a few more details and we'll add you to our list!</h2>
+                </div>
+            </div>
+            <div id="step3" class="animated fadeIn">
+                <div class="main-header">
+                    <h1 class="main-h1">Thank you for signing up!</h1>
+                </div>
+                <div class="sub-header">
+                    <h2 class="sub-h2">We'll reach out as soon as we're ready. Please help us spread the word!</h2>
+                </div>
+                <div class="form-wrapper">
+                    <ul class="social-share">
+                        <li>
+                            <a target="_blank" class="social-icon fb"
+                                href="https://www.facebook.com/sharer.php?u=https://jadpad.com"></a>
+                        </li>
+                        <li>
+                            <a target="_blank" class="social-icon twitter"
+                                href="https://twitter.com/intent/tweet?text=Check+out+&via=jadpadbot&url=https://jadpad.com"></a>
+                        </li>
+                        <li class="device-only">
+                            <a target="_blank" class="social-icon whatsapp"
+                                href="whatsapp://send?text=https://jadpad.com"></a>
+                        </li>
+                    </ul>
+                    <div class="copyWrapper">
+                        <input class="text-field" id="foo" value="https://jadpad.com" readonly="true">
+                        <button class="btn copy" id="copyUrl" data-clipboard-target="#foo">
+                            Copy
+                        </button>
+                        <div class="copied">Copied!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-wrapper animated fadeInUp" id="signUpWrapper">
+                <form id="signup" action="thank-you" netlify="netlify" netlify-honeypot="bot-field">
+                    <p class="hidden">
+                        <label>Don’t fill this out:
+                            <input name="bot-field"></label>
+                    </p>
+                    <div id="step1">
+                        <div class="form-group">
+                            <input id="email" type="text" class="text-field" name="email"
+                                placeholder="Your email address" value="" />
+                            <div class="error-message"></div>
+                        </div>
+                        <button class="large-btn" id="nextStep">Sign Up!</button>
+                    </div>
+                    <div id="step2">
+                        <div class="form-group col-4">
+                            <input type="text" class="text-field" name="firstName" placeholder="Your first name"
+                                value="" />
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group col-4">
+                            <input type="text" class="text-field" name="lastName" placeholder="Your last name"
+                                value="" />
+                            <div class="error-message"></div>
+                        </div>
+                        <button class="large-btn" type="submit" id="submit">Sign Me Up!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="front-browser">
+            <div id="random_price1" class="animated"></div>
+            <img src="img/browser.png" />
+        </div>
+    </div>
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>');
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.4/js/standalone/selectize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.0/bootstrap-slider.min.js"></script>
+    <script src="js/vendor/validate.js"></script>
+    <script src="js/main.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102946042-10"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-140428478-1');
+    </script>
+</body>
+
+</html>
